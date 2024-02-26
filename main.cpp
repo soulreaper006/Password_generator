@@ -7,6 +7,8 @@ int string_length = sizeof(alphanum) - 1;
 int main()
 {
     int n;
+    cout << "/t welcome to password
+generator"<<endl;
     cout << "Enter the length of password: ";
     cin >> n;
     srand(time(0));
